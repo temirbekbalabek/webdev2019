@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: Write a Poem</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <h1>This is my first typing in khanacademy web-site</h1>
+    <p>My name is Temirbek<br>
+    My lastname is Balabek<br>
+    I'm 18 years old</p>
+    </body>
+</html>
