@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Facebook</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,600" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:800|Arimo:700" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1 id="facebook-logo">facebook</h1>
+    </div>
+        
+        <div class="login-block">
+            <form id="login-form" action="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&amp;lwv=110" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="email"><h5 class="login">Email or Phone</h5></label>
+                            </td>
+                            <td>
+                                <label for="password"><h5 class="login">Password</h5></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input class="inputtext" type="email" id="email" name="email" required></td>
+                            <td><input class="inputtext" type="password" id="password" name="password" required></td>
+                            <td><input type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><h5><a href="https://www.facebook.com/recover/initiate?lwv=110&ars=royal_blue_bar">Forgot account?</a></h5></td>
+                        </tr>
+                    </tbody>
+                </table>
+        </form>
+    </div>
+
+    <div class="medium-block">
+                    <h2 class="left">Facebook помогает вам всегда оставаться на</h2> <br>
+                    <h2 class="left">связи и общаться со своими знакомыми.</h2>
+                    <img class="left" src="1.png" alt="My image">
+                    <section>
+
+                    <form id="registration-form">
+                            <h1>Регистрация</h1> <br>
+                            <h3>Это бесплатно и всегда будет бесплатно.</h3>
+                            <input class="input" type="text" name="name" id="name" placeholder="Имя">
+                            <input class="input" type="text" name="sname" id="sname" placeholder="Фамилия"> <br>
+                            <input class="input" type="email" name="email" id="email" placeholder="Номер мобильного телефона или эл. адрес"> <br>
+                            <input class="input" type="password" name="password" id="password" placeholder="Новый пароль"> <br>
+                            <label class="date" for="birth-date">Дата рождения</label> <br>
+                            <input class="number" type="number" name="birth-day" id="birth-day" min="0" max="31">
+                            <select name="birthmonth" id="birth-month">
+                                    <option value="january">январь</option>
+                                    <option value="february">февраль</option>
+                                    <option value="march">март</option>
+                                    <option value="april">апрель</option>
+                                    <option value="may">май</option>
+                                    <option value="june">июнь</option>
+                                    <option value="july">июль</option>
+                                    <option value="august">август</option>
+                                    <option value="september">сентябрь</option>
+                                    <option value="october">октябрь</option>
+                                    <option value="november">ноябрь</option>
+                                    <option value="december">декабрь</option>
+                            </select>           
+                            <input type="number" name="birth-year" id="birth-year" min="1950" max="2018"> <br>    
+                            <input type="radio" name="gender" id="female" value="female">
+                            <label for="female">Женщина</label>
+                            <input type="radio" name="gender" id="male" value="male">
+                            <label for="male">Мужчина</label>
+                
+                            
+                    </form>
+                </section>
+            
+    </div>
+
+    
+</body>

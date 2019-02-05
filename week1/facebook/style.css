@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color:#405A93;
+    width: 100%;
+    height: 80px;
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;    
+    /* background-position-x: 0px;
+    background-position-y: 0px; */
+    
+}
+.login-block{
+    position: absolute;
+    right: 200px;
+    top: 8px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    padding-left: 1px;
+}
+td {
+    padding-left: 15px;
+    padding-top: 4px;
+
+}
+
+.inputtext{
+    height: 18px;
+}
+
+
+/* input[type=submit] {
+    background-color:rgb(68, 104, 211);
+    color:white;
+    border:black;
+    font-size: 14px;
+    text-align: center;
+} */
+/*Кнопка логина*/
+
+a {
+    color: #a2a8b3;
+    font-weight: normal;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#facebook-logo {
+    transform: scaleY(1.1);
+    position: relative;
+    left: 200px;
+    top: 20px;
+    
+}
+
+.medium-block{
+    background-color: #EDF0F5;
+    width: 100%;
+    height: 600px;
+}
+
+.left{
+    position: relative;
+    left:200px;
+    top: 60px;
+    font-size: 24px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 4px;
+    transform: scaleY(1) scaleX(1);
+    color:rgb(15, 39, 92);
+    padding-top: 15px; 
+    width:550px;
+}
+#registration-form{
+    padding-left: 900px;
+    position: absolute;
+    top: 150px;
+    height:90%;
+}
+.input{
+    margin-bottom: 10px;
+    width: 270px;
+    height:25px;
+    color:#999;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: left;
+}
+.number{
+    margin-bottom: 10px;
+}
+.date{
+    margin-bottom: 10px;
+}
+
+
