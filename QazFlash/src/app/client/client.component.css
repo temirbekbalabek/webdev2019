@@ -1,0 +1,66 @@
+#first {
+    background-color: yellow;   
+}
+#second {
+    
+    padding-top: 30px;
+    width:1550px;
+    height: 1200px;
+    background-size:700px;
+    background-color:  white;
+    
+}
+#img1 {
+    padding-top:100px;
+    padding-left:550px;
+    width: 600px;
+}
+#firstH {
+    position: absolute;
+    padding-top:200px;
+    padding-left:430px;
+}
+#secondH {
+    position: absolute;
+    padding-top:250px;
+    padding-left:430px;
+}
+#third {
+    width: 259;
+    height: 207;
+    position: absolute;
+    padding-left:250px;
+    padding-top:50px;
+}
+#four {
+    width:284;
+    height: 70;
+    position:absolute;
+    padding-left:550px;
+    padding-top:50px;
+    
+}
+#form1 {
+    padding-left:550px;
+    padding-top:200px;
+    width: 100px;
+    float: left;
+    
+}
+#kart {
+    padding-left: 850px;
+    padding-top:60px;
+}
+#submit1 {
+    background-color: black;
+    color: white;
+    height: 30px;
+    
+}
+#img2 {
+    padding-left: 240px;
+}
+.container {
+    position:absolute;
+    padding-top: 50px;
+}

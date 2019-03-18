@@ -1,0 +1,85 @@
+.site_name {
+    margin: 0px;
+    text-align: center;
+    background-image: url("https://png.pngtree.com/back_origin_pic/00/03/66/5cc9efd50d229d1b459bbf767cffca9e.png");
+    font-family: 'Bahnschrift Light', Times, serif;
+    font-size: 100px;
+    color: rgb(253, 233, 52);
+    width: 100%;
+}
+
+.header_div{
+    width: 100%;
+    margin-left: none;
+}
+.nav {
+    display: inline-block;
+    width: 100%;      
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-image: url("https://png.pngtree.com/back_origin_pic/00/03/66/5cc9efd50d229d1b459bbf767cffca9e.png");
+}
+
+.nav li {
+    display: inline-block;
+}
+#nav_element1{
+    margin-right: none;
+    margin-left: 400px;
+    border-radius: 3px;
+    background-color: rgb(140, 0, 255);
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 14px 16px;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: rgb(140, 0, 255);
+}
+#vhod {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    margin-left: 90px; 
+    float: right;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+#vhod:hover{
+    background-color: rgb(247, 76, 76);
+    margin-bottom: 5px;
+
+}
+
+#reg {
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    float: right;
+    margin-left: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    
+}
+#reg:hover {
+    background-color: rgb(255, 232, 102);
+    margin-bottom: 5px;
+}
+button {
+    cursor: pointer;
+}

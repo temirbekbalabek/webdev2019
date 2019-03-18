@@ -1,0 +1,46 @@
+.products{
+    margin-left: 280px;
+}
+.products figure{
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+}
+.products img{
+    width: 300px;
+    height: 300px;
+    border: 3px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.products img:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+.products p{
+    color: rgba(170, 170, 170, 0.829);
+}
+
+.products button{
+    width: 100px;
+    height: 30px;
+    background-color: #37b8e0;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    
+}
+.products a{
+    font-size: 25px;
+    color: #00b0f0;
+}
+.products figcaption{
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+    font-family: 'Open Sans',sans-serif;
+}
