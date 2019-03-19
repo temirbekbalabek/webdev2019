@@ -1,0 +1,23 @@
+h6 { 
+    border: 1px solid blue;
+    margin: 0;
+    width: 960px;
+}
+h3 {
+    margin: 5px;
+}
+h2 {
+    text-transform: uppercase;
+}
+p {
+    font-size: 19px;
+}
+a {
+    border: 10px solid rgb(50,90,180);
+    border-radius: 10px;
+    background-color: rgb(50,90,180);
+    color: black;
+}
+#contacts{
+    height: 500px;
+}

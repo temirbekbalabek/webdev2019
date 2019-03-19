@@ -9,7 +9,8 @@ import { ClientComponent } from './client/client.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HistoryComponent } from './history/history.component';
-import { MapComponent } from './map/map.component';
+import { AgmCoreModule } from '@agm/core';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,18 @@ import { MapComponent } from './map/map.component';
     HeaderComponent,
     FooterComponent,
     HistoryComponent,
-    MapComponent
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'YOUR GOOGLE MAPS API KEY'
+      /* apiKey is required, unless you are a 
+      premium customer, in which case you can 
+      use clientId 
+      */
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
