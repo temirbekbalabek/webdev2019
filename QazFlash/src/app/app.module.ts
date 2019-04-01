@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HistoryComponent } from './history/history.component';
 import { AgmCoreModule } from '@agm/core';
 import { ContactsComponent } from './contacts/contacts.component';
+import { EnergeaWiDockComponent } from './store/products/energea-wi-dock/energea-wi-dock.component';
+import { ZCO50248Component } from './store/products/zco50248/zco50248.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ContactsComponent } from './contacts/contacts.component';
     HeaderComponent,
     FooterComponent,
     HistoryComponent,
-    ContactsComponent
+    ContactsComponent,
+    EnergeaWiDockComponent,
+    ZCO50248Component
   ],
   imports: [
     BrowserModule,
