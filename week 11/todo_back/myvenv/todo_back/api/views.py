@@ -10,7 +10,7 @@ def show_lists(request):
     data = {
         'tasklists': json_tasklists,
     }
-    return JsonResponse(data, safe=False)
+    return JsonResponse(json_tasklists, safe=False)
 def n_list(request, num):
     try:
         taskList = TaskList.objects.get(id=num)
@@ -21,7 +21,7 @@ def n_list(request, num):
     data = {
         'tasklist': json_tasklist,
     }
-    return JsonResponse(data, safe=False)
+    return JsonResponse(json_tasklist, safe=False)
 def n_list_tasks(request, num):
     try:
         a = TaskList.objects.get(id=num)
@@ -32,7 +32,7 @@ def n_list_tasks(request, num):
     data = {
         'tasklist': json_tasks,
     }
-    return JsonResponse(data, safe=False)
+    return JsonResponse(json_tasks, safe=False)
 
 def index(request):
     taskLists = TaskList.objects.all()
